@@ -1,0 +1,101 @@
+.logo,
+.navigation,
+h2,
+h3,
+footer {
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+.green {
+    color: green;
+}
+
+.logo {
+    width: 50%;
+}
+
+.navigation {
+    list-style: none;
+    width: 50%;
+    margin-top: 30px;
+    color: green;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+
+main p {
+    font-size: 1.2em;
+}
+
+section {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    width: 100%;
+}
+
+section div {
+    width: 33.33%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.specials,
+.reviews {
+    border-right: 1px solid gray;
+}
+
+.specials ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.specials ul li {
+    margin-bottom: 1em;
+}
+
+.reviews,
+.contact-us {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.reviews p,
+.contact-us p {
+    font-size: 1.1em;
+}
+
+h3 {
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+}
+
+.fresh-text {
+    font-family: cursive;
+    text-transform: lowercase;
+    font-weight: bold;
+}
